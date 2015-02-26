@@ -1,0 +1,22 @@
+{
+	"name": "flux_test",
+	"version": "0.1.0",
+	"main": "./js/app.jsx",
+	"browser": "./js/app.jsx",
+	"author": "ds",
+	"description": "a first flux test..",
+	"dependencies": {
+		"react": "0.12.2",
+		"reflux": "0.2.5",
+		"watchify": "2.4.0",
+		"babelify": "5.0.3",
+		"reactify": "1.0.0",
+		"object-assign": "^1.0.0",
+		"superagent": "0.21.0"
+	},
+	"browserify": {
+		"transform": [
+			["reactify", {"es6": true}]
+		]
+	}
+}
